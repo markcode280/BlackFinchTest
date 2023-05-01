@@ -1,6 +1,6 @@
 # BlackFinchTest
 
-What would I have improved if production
+What would I have improved if production:
 
 
 1. I would have applied SOLID principles by adding three separate classes. One class for loan application, one for loan decision and loan metrics that would implement given interfaces 
