@@ -21,3 +21,5 @@ for example (repository design pattern) each service would also inject appropria
      }
     
 I would then have a final class where I would inject the services I need to obtain the final result. I would also have unit tests for each service along side integration tests and possibly implement some ORM or DAL where appropriate. for front end, assuming its a website I would include the appropriate Behavioural tests.
+
+I also would have broken larger methods with branching logic into smaller, testable units and applied DRY principles.
