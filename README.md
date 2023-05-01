@@ -10,7 +10,7 @@ What would I have improved if production:
      public class LoanMetricsService: ILoanMetricsService
 
 each with individual responsibility and each service class would inject each associated repository dependancy for DB access ect.. 
-for example (repository design pattern)
+for example (repository design pattern) each service would also inject appropriate dependancies and handle functionality suitable for purpose.
 
 
     public LoanApplicationService(ILoanApplicationRepository repository, ILoanDecisionService decisionService, ILoanMetricsService metricsService)
